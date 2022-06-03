@@ -4,7 +4,7 @@
 
     <artifactId>che-api</artifactId>
     <groupId>io.github.che-incubator</groupId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>che-api</name>
     <description>Eclipse Che API for Kotlin-based projects</description>
@@ -14,7 +14,7 @@
         <connection>scm:git:git@github.com:che-incubator/che-api.git</connection>
         <developerConnection>scm:git:git@github.com:che-incubator/che-api.git</developerConnection>
         <url>https://github.com/che-incubator/che-api</url>
-        <tag>v1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
