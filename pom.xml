@@ -136,26 +136,25 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.1.1</version>
+                <groupId>org.jetbrains.dokka</groupId>
+                <artifactId>dokka-maven-plugin</artifactId>
+                <version>1.6.21</version>
                 <executions>
                     <execution>
-                        <id>attach-javadocs</id>
+                        <phase>package</phase>
                         <goals>
-                            <goal>jar</goal>
+                            <goal>javadocJar</goal>
                         </goals>
                     </execution>
                 </executions>
                 <configuration>
-                    <doclint>none</doclint>
-                    <tags>
-                        <tag>
-                            <name>http.response.details</name>
-                            <placement>a</placement>
-                            <head>Http Response Details:</head>
-                        </tag>
-                    </tags>
+                    <dokkaPlugins>
+                        <plugin>
+                            <groupId>org.jetbrains.dokka</groupId>
+                            <artifactId>kotlin-as-java-plugin</artifactId>
+                            <version>1.6.21</version>
+                        </plugin>
+                    </dokkaPlugins>
                 </configuration>
             </plugin>
             <plugin>
