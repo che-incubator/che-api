@@ -9,6 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>che-api</name>
+    <description>Eclipse Che API for Kotlin-based projects</description>
+    <url>https://github.com/che-incubator/che-api</url>
 
     <scm>
         <connection>scm:git:git@github.com:che-incubator/che-api.git</connection>
