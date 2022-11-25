@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    implementation("org.yaml:snakeyaml:1.30")
+    implementation("org.yaml:snakeyaml:1.33")
     implementation("io.github.che-incubator:devfile-api:1.0")
     implementation("io.kubernetes:client-java:15.0.1")
 }
