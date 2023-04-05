@@ -5,6 +5,9 @@ It's created mainly for using by [Che's IDEA editor](https://github.com/che-incu
 
 ### Release
 
+
+
+
 Make sure your `settings.xml` contains:
 ```xml
 <settings>
