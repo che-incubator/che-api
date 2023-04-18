@@ -36,3 +36,7 @@ mvn release:clean release:prepare -DdryRun=true
 mvn release:prepare
 mvn release:perform
 ```
+
+### Trademark
+
+"Che" is a trademark of the Eclipse Foundation.
