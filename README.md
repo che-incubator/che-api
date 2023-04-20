@@ -1,7 +1,7 @@
-## Eclipse Che API for Kotlin-based projects
+## Eclipse Che® API for Kotlin-based projects
 
 It's a utility library that helps working with a DevWorkspace.
-It's created mainly for using by [Che's IDEA editor](https://github.com/che-incubator/jetbrains-editor-images/blob/2b20c1664ae3769aecade08106789f81672e640c/che-plugin/build.gradle.kts#L30).
+It's created mainly for using by [Eclipse Che®'s IDEA editor](https://github.com/che-incubator/jetbrains-editor-images/blob/2b20c1664ae3769aecade08106789f81672e640c/che-plugin/build.gradle.kts#L30).
 
 ### Release
 
@@ -36,3 +36,7 @@ mvn release:clean release:prepare -DdryRun=true
 mvn release:prepare
 mvn release:perform
 ```
+
+### Trademark
+
+"Che" is a trademark of the Eclipse Foundation.
